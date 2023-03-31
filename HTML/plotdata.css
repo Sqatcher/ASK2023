@@ -1,0 +1,49 @@
+#PlotDiv {
+	width: 50%;
+	margin: auto;
+}
+
+#TitleDiv {
+	width: 700px;
+	height: 150px;
+	margin: auto;
+	margin-top: 60px;
+	justify-content: center;
+}
+
+#TitleDiv > h1 {
+	margin: auto;
+	text-decoration: none;
+	font-family: fantasy;
+	text-align: center;
+}
+
+.navbar {
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	width: 99%;
+	border: 3px solid #333;
+	border-top: 0px;
+	z-index: 1;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: fantasy;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+	background: rgba(201, 201, 201);
+	color: black;
+  }
