@@ -47,3 +47,31 @@
 	background: rgba(201, 201, 201);
 	color: black;
   }
+
+  #ChinaDiv {
+	display: grid;
+	grid-template-columns: 20% 75%;
+	text-align: center;
+  }
+
+  #ChinaDiv > *{
+	margin: auto;
+  }
+
+  .text {
+	margin-left: 20px;
+	text-decoration: none;
+	font-family: fantasy;
+	margin-bottom: 0px;
+	margin-top: 0px;
+  }
+
+  #HistDiv {
+	display: grid;
+	grid-template-columns: auto auto;
+	text-align: center;
+  }
+
+  #HistDiv > *{
+	margin: auto;
+  }
