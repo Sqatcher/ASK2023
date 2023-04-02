@@ -64,6 +64,7 @@
 	font-family: fantasy;
 	margin-bottom: 0px;
 	margin-top: 0px;
+	text-align: justify;
   }
 
   #HistDiv {
@@ -74,4 +75,8 @@
 
   #HistDiv > *{
 	margin: auto;
+  }
+
+  div > img {
+	width: 80%;
   }
